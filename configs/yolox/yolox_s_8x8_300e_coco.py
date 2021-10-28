@@ -17,7 +17,7 @@ model = dict(
     test_cfg=dict(score_thr=0.01, nms=dict(type='nms', iou_threshold=0.65)))
 
 # dataset settings
-data_root = '/home/linux/data/coco/'
+data_root = '/data/coco/'
 dataset_type = 'CocoDataset'
 
 img_norm_cfg = dict(

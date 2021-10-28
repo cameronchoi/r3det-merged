@@ -86,7 +86,7 @@ test_pipeline = [
 ]
 
 dataset_type = 'CocoDataset'
-data_root = '/home/linux/data/coco/'
+data_root = '/data/coco/'
 
 # Use RepeatDataset to speed up training
 data = dict(
